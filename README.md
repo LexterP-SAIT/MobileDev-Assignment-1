@@ -36,12 +36,12 @@ Scan the QR code using **Expo Go** (Android) or the Camera app (iOS), or press `
 - **Client Setup:** Configured in `lib/supabasesetup.ts` using the environment variables in `.env`.
 - **Database & RLS:**
   - *Tables: member_resources & public_announcements.
-    -public_announcements Policies: Public can read announcements, COMMAND: SELECT, Applied to: anon, authenticated 
-    -member_resources Policies: 
-      -Authenticated users can delete member resources, COMMAND: DELETE, Applied to: authenticated:
-      -Authenticated users can insert member resources, COMMAND: INSERT, Applied to: authenticated
-      -Authenticated users can read member resources,COMMAND: SELECT, Applied to: authenticated
-      -Authenticated users can update member resources, COMMAND: UPDATE, Applied to: authenticated*
+      -public_announcements Policies: Public can read announcements, COMMAND: SELECT, Applied to: anon, authenticated 
+      -member_resources Policies: 
+            -Authenticated users can delete member resources, COMMAND: DELETE, Applied to: authenticated:
+            -Authenticated users can insert member resources, COMMAND: INSERT, Applied to: authenticated
+            -Authenticated users can read member resources,COMMAND: SELECT, Applied to: authenticated
+            -Authenticated users can update member resources, COMMAND: UPDATE, Applied to: authenticated*
 
 
 ## Test Account
